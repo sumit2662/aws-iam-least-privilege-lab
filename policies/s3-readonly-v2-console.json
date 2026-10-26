@@ -1,0 +1,28 @@
+@'
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "ConsoleListBuckets",
+      "Effect": "Allow",
+      "Action": [
+        "s3:ListAllMyBuckets",
+        "s3:GetBucketLocation"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "ListTheBucket",
+      "Effect": "Allow",
+      "Action": "s3:ListBucket",
+      "Resource": "arn:aws:s3:::sumit-iam-lab-2026"
+    },
+    {
+      "Sid": "ReadObjectsOnly",
+      "Effect": "Allow",
+      "Action": "s3:GetObject",
+      "Resource": "arn:aws:s3:::sumit-iam-lab-2026/*"
+    }
+  ]
+}
+'@ | Set-Content -Encoding ascii policies\s3-readonly-v2-console.json
