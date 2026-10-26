@@ -77,5 +77,5 @@ Deleted the `lab-reader` user, the `s3-readers` group, the policy, and the lab b
 
 ## Author
 **Sumit Jadhav**
-YouTube: [@officialhackwithsumit](https://www.youtube.com/@officialhackwithsumit)
+YouTube:https://www.youtube.com/@officialhackwithsumit
 LinkedIn :- www.linkedin.com/in/sumit-jadhav-67090b2a6
